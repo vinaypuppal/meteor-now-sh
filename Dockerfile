@@ -1,6 +1,6 @@
 FROM node:6.9-slim
 
-ENV MONGO_URL mongodb://meteor-test:meteor-test@ds061405.mlab.com:61405/meteor-test
+ENV MONGO_URL mongodb://<username>:<password>@ds061405.mlab.com:61405/meteor-test
 ENV ROOT_URL https://meteor-now.now.sh
 
 RUN apt-get update -q -q && \
